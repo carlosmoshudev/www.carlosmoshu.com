@@ -4,12 +4,20 @@
   import Technologies from "./technologies.svelte";
 </script>
 
-<h2>Aptitudes</h2>
-<div class="aptitude_container"><Skills /></div>
-<div class="aptitude_container"><Technologies /></div>
-<div class="aptitude_container"><Languages /></div>
+<article>
+  <h2>Aptitudes</h2>
+  <div class="aptitude_container"><Skills /></div>
+  <div class="aptitude_container"><Technologies /></div>
+  <div class="aptitude_container"><Languages /></div>
+</article>
 
 <style>
+  article {
+    padding-left: 0vw;
+    padding-right: 0vw;
+    margin: 0vw;
+    min-width: 100%;
+  }
   .aptitude_container {
     background-color: #fff;
     border-radius: 0.5rem;

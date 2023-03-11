@@ -2,6 +2,7 @@
   import Aptitudes from "../Components/Curriculum/Aptitudes/aptitudes.svelte";
   import Experience from "../Components/Curriculum/Experience/experience.svelte";
   import Training from "../Components/Curriculum/Training/training.svelte";
+  import Introduction from "../Components/Curriculum/introduction.svelte";
 </script>
 
 <div id="home_container">
@@ -9,6 +10,7 @@
     <Experience />
   </div>
   <div class="right_column">
+    <Introduction />
     <Training />
     <Aptitudes />
   </div>
